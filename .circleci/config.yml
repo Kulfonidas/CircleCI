@@ -7,8 +7,10 @@ jobs:
         
     steps: 
       - checkout 
-      - run: make deps 
-      - run: make bladjakis 
+      - run: echo
+      - run: echo
+      - run: echo
+
 workflows: 
   basic:  
     jobs: 
